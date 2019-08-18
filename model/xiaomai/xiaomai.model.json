@@ -1,0 +1,105 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"umaru.moc",
+	"textures":[
+		"umaru2048/texture_00.png"
+	],
+	"physics":"physics.json",
+	"layout":
+	{
+		"width":1.8376,
+		"center_x":-0.0507,
+		"center_y":-0.089
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.PT_HEAD"},
+		{"name":"body", "id":"D_REF.PT_BODY"}
+	],
+
+	"motions":
+	{
+		"idle":
+		[
+			{ "file":"mtn/umaru_idle.mtn" ,"fade_in":500, "fade_out":500, "expressions":"F00" }
+		],
+        "start":
+		[
+			{ "file":"mtn/rita_Live2D_003.mtn", "sound": "voice/03.wav", "msg_id":"3", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_026.mtn", "sound": "voice/26.wav", "msg_id":"26", "expressions":"F00" },
+            { "file":"mtn/rita_Live2D_001.mtn", "sound": "voice/01.wav", "msg_id":"1", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_002.mtn", "sound": "voice/02.wav", "msg_id":"2", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_003.mtn", "sound": "voice/03.wav", "msg_id":"3", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_004.mtn", "sound": "voice/04.wav", "msg_id":"4", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_005.mtn", "sound": "voice/05.wav", "msg_id":"5", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_006.mtn", "sound": "voice/06.wav", "msg_id":"6", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_007.mtn", "sound": "voice/07.wav", "msg_id":"7", "fade_in":500, "fade_out":1000},
+			{ "file":"mtn/rita_Live2D_008.mtn", "sound": "voice/08.wav", "msg_id":"8", "fade_in":500, "fade_out":1000},
+			{ "file":"mtn/rita_Live2D_009.mtn", "sound": "voice/09.wav", "msg_id":"9", "fade_in":500, "fade_out":1000},
+			{ "file":"mtn/rita_Live2D_010.mtn", "sound": "voice/10.wav", "msg_id":"10", "expressions":"F00" }
+            
+		],
+		"tap_head":
+		[
+			{ "file":"mtn/rita_Live2D_027.mtn", "sound": "voice/27.wav", "msg_id":"28", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_028.mtn", "sound": "voice/28.wav", "msg_id":"29", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_029.mtn", "sound": "voice/29.wav", "msg_id":"30", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_030.mtn", "sound": "voice/30.wav", "msg_id":"31", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_031.mtn", "sound": "voice/31.wav", "msg_id":"32", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_032.mtn", "sound": "voice/32.wav", "msg_id":"33", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_033.mtn", "sound": "voice/33.wav", "msg_id":"34", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_034.mtn", "sound": "voice/34.wav", "msg_id":"35", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_034.mtn", "sound": "voice/34.wav", "msg_id":"36", "expressions":"F00" },
+            { "file":"mtn/rita_Live2D_021.mtn", "sound": "voice/21.wav", "msg_id":"21" },
+			{ "file":"mtn/rita_Live2D_022.mtn", "sound": "voice/22.wav", "msg_id":"22" },
+			{ "file":"mtn/rita_Live2D_023.mtn", "sound": "voice/23.wav", "msg_id":"23" },
+			{ "file":"mtn/rita_Live2D_024.mtn", "sound": "voice/24.wav", "msg_id":"24" },
+			{ "file":"mtn/rita_Live2D_025.mtn", "sound": "voice/25.wav", "msg_id":"25" },
+            { "file":"mtn/rita_Live2D_026.mtn", "sound": "voice/26.wav", "msg_id":"27", "expressions":"F00" }
+		],
+        "tap_body":
+		[
+			{ "file":"mtn/rita_Live2D_011.mtn", "sound": "voice/11.wav", "msg_id":"11", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_012.mtn", "sound": "voice/12.wav", "msg_id":"12", "fade_in":500, "fade_out":1000},
+			{ "file":"mtn/rita_Live2D_013.mtn", "sound": "voice/13.wav", "msg_id":"13", "fade_in":500, "fade_out":500},
+			{ "file":"mtn/rita_Live2D_014.mtn", "sound": "voice/14.wav", "msg_id":"14", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_015.mtn", "sound": "voice/15.wav", "msg_id":"15" },
+			{ "file":"mtn/rita_Live2D_016.mtn", "sound": "voice/16.wav", "msg_id":"16", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_017.mtn", "sound": "voice/17.wav", "msg_id":"17", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_018.mtn", "sound": "voice/18.wav", "msg_id":"18", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_019.mtn", "sound": "voice/19.wav", "msg_id":"19", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_020.mtn", "sound": "voice/20.wav", "msg_id":"20", "fade_in":500, "fade_out":1000}
+		],		
+		"shake":
+		[
+			{ "file":"mtn/rita_Live2D_021.mtn", "sound": "voice/21.wav", "msg_id":"21" },
+			{ "file":"mtn/rita_Live2D_022.mtn", "sound": "voice/22.wav", "msg_id":"22" },
+			{ "file":"mtn/rita_Live2D_023.mtn", "sound": "voice/23.wav", "msg_id":"23" },
+			{ "file":"mtn/rita_Live2D_024.mtn", "sound": "voice/24.wav", "msg_id":"24" },
+			{ "file":"mtn/rita_Live2D_025.mtn", "sound": "voice/25.wav", "msg_id":"25" },
+            { "file":"mtn/rita_Live2D_026.mtn", "sound": "voice/26.wav", "msg_id":"27", "expressions":"F00" }
+		],
+        "random":
+		[
+			{ "file":"mtn/rita_Live2D_027.mtn", "sound": "voice/27.wav", "msg_id":"28", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_028.mtn", "sound": "voice/28.wav", "msg_id":"29", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_029.mtn", "sound": "voice/29.wav", "msg_id":"30", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_030.mtn", "sound": "voice/30.wav", "msg_id":"31", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_031.mtn", "sound": "voice/31.wav", "msg_id":"32", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_032.mtn", "sound": "voice/32.wav", "msg_id":"33", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_033.mtn", "sound": "voice/33.wav", "msg_id":"34", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_034.mtn", "sound": "voice/34.wav", "msg_id":"35", "expressions":"F00" },
+			{ "file":"mtn/rita_Live2D_034.mtn", "sound": "voice/34.wav", "msg_id":"36", "expressions":"F00" },
+            { "file":"mtn/rita_Live2D_021.mtn", "sound": "voice/21.wav", "msg_id":"21" },
+			{ "file":"mtn/rita_Live2D_022.mtn", "sound": "voice/22.wav", "msg_id":"22" },
+			{ "file":"mtn/rita_Live2D_023.mtn", "sound": "voice/23.wav", "msg_id":"23" },
+			{ "file":"mtn/rita_Live2D_024.mtn", "sound": "voice/24.wav", "msg_id":"24" },
+			{ "file":"mtn/rita_Live2D_025.mtn", "sound": "voice/25.wav", "msg_id":"25" },
+            { "file":"mtn/rita_Live2D_026.mtn", "sound": "voice/26.wav", "msg_id":"27", "expressions":"F00" }
+		],
+		"new_msg":
+		[
+			{ "file":"mtn/rita_Live2D_033.mtn", "sound": "voice/33.wav", "msg_id":"34", "expressions":"F00" }
+		]
+	}
+}

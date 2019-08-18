@@ -1,0 +1,30 @@
+{
+	"posted": "Dreamer-Paul",
+	"type": "Live2D Model Setting",
+	"name": "Yuri",
+	"model": "Yuri.moc",
+	"textures": [
+		"textures/texture_00.png"
+	],
+	"hit_areas_custom": {
+		"head_x": [-0.8, 0.85],
+		"head_y": [-0.45, 0.45],
+		"body_x": [-0.75, 0.45],
+		"body_y": [-0.5, 0]
+	},
+	"motions":{
+		"idle":[
+			{"file":"motions/Yuri_motion1.mtn"},
+			{"file":"motions/Yuri_motion2.mtn"},
+			{"file":"motions/Yuri_motion3.mtn"}
+		],
+		"flick_head":[
+			{"file":"motions/Yuri_motion1.mtn"}
+		],
+		"tap_body":[
+			{"file":"motions/Yuri_motion1.mtn"},
+			{"file":"motions/Yuri_motion2.mtn"},
+			{"file":"motions/Yuri_motion3.mtn"}
+		]
+	}
+}

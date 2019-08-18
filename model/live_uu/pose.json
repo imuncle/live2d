@@ -1,0 +1,31 @@
+{
+  "type": "Live2D Pose",
+  "parts_visible": [
+    {
+      "group": [
+        {
+          "id": "PARTS_rightarm A"
+        },
+        {
+          "id": "PARTS_rightarm B"
+        },
+        {
+          "id": "PARTS_rightarm C"
+        }
+      ]
+    },
+    {
+      "group": [
+        {
+          "id": "PARTS_leftarm A"
+        },
+        {
+          "id": "PARTS_leftarm B"
+        },
+        {
+          "id": "PARTS_leftarm C"
+        }
+      ]
+    }
+  ]
+}

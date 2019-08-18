@@ -1,0 +1,54 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"moc/katou.moc",
+	"textures":[
+		"moc/katou.2048/texture_00.png"
+	],
+	"expressions":[
+		{"name":"F_ANGRY","file":"exp/F_ANGRY.exp.json"},
+		{"name":"F_DOWN","file":"exp/F_DOWN.exp.json"},
+		{"name":"F_FUN","file":"exp/F_FUN.exp.json"},
+		{"name":"F_NOMAL","file":"exp/F_NOMAL.exp.json"},
+		{"name":"F_SAD","file":"exp/F_SAD.exp.json"},
+		{"name":"F_SURPRISE","file":"exp/F_SURPRISE.exp.json"}
+	],
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.PT_HEAD"},
+		{"name":"body", "id":"D_REF.PT_BODY"}
+	],
+	"motions":{
+		"tap_body":[
+			{"file":"mtn/I_ANGRY.mtn","fade_in":500, "fade_out":1000},
+			{"file":"mtn/I_ANGRY_S.mtn"},
+			{"file":"mtn/I_ANGRY_W.mtn"},
+			{"file":"mtn/I_FUN.mtn","fade_in":500, "fade_out":1000},
+			{"file":"mtn/I_FUN_S.mtn"},
+			{"file":"mtn/I_FUN_W.mtn"},
+			{"file":"mtn/I_SAD.mtn","fade_in":500, "fade_out":1000},
+			{"file":"mtn/I_SAD_S.mtn"},
+			{"file":"mtn/I_SAD_W.mtn"},
+			{"file":"mtn/I_SURPRISE.mtn","fade_in":500, "fade_out":1000},
+			{"file":"mtn/I_SURPRISE_S.mtn"},
+			{"file":"mtn/I_SURPRISE_W.mtn"},
+			{"file":"mtn/IDLING_01.mtn","fade_in":500, "fade_out":1000},
+			{"file":"mtn/IDLING_02.mtn"},
+			{"file":"mtn/IDLING_03.mtn"},
+			{"file":"mtn/REPEAT_01.mtn"}
+		],
+		"idle":[
+			{"file":"mtn/IDLING_02.mtn","fade_in":500, "fade_out":1000},
+			{"file":"mtn/IDLING_03.mtn","fade_in":500, "fade_out":1000}
+		],
+		"pinch_in":[
+			{"file":"mtn/I_FUN.mtn","sound": "voice/1.mp3"}
+		]
+	},
+	"physics":"katou_01.physics.json",
+	"pose":"katou_01.pose.json",
+	"layout":{
+		"width":1.85,
+		"center_x":0,
+		"center_y":-0.31
+	}
+}

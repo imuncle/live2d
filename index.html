@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>live2d</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="avatar.png">
+        <style>
+            body {
+                min-height:100vh
+            }
+            .live2d {
+                position: fixed;
+                bottom : 0;
+                left : 0;
+            }
+        </style>
+    </head>
+    <body onload="InitLive2D()">
+        <audio id="my_audio"></audio>
+        <button id="Change" class="active">换人</button>
+        <button id="texure" class="active">换衣服</button>
+        <canvas class="live2d" id="live2d" width="300" height="800"></canvas>
+    </body>
+    <script src="js/LAppDefine.js"></script>
+    <script src="js/live2d.min.js"></script>
+</html>

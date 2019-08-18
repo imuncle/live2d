@@ -1,0 +1,54 @@
+{
+    "posted": "Dreamer-Paul",
+    "version": "1.0",
+    "model": "model.moc",
+    "textures": [
+        "textures/texture_00.png",
+        "textures/texture_01.png"
+    ],
+    "layout": {
+        "center_x": 0.0,
+        "center_y": 0.0,
+        "width": 2.0
+    },
+    "hit_areas_custom": {
+        "head_x": [-0.35, 0.6],
+        "head_y": [0.19, -0.2],
+        "body_x": [-0.3, -0.25],
+        "body_y": [0.3, -0.9]
+    },
+    "hit_areas": [
+        {
+            "name": "bust",
+            "id": "bust"
+        },
+        {
+            "name": "hand",
+            "id": "hand"
+        },
+        {
+            "name": "hm",
+            "id": "hm"
+        }
+    ],
+    "motions": {
+        "tap_hand": [
+            {"file": "motions/tap_hand/taphand.mtn", "fade_in": 1000, "fade_out": 0}
+        ],
+        "idle": [
+            {"file": "motions/idle/idle.mtn", "fade_in": 0, "fade_out": 0},
+            {"file": "motions/idle/idle2.mtn", "fade_in": 0, "fade_out": 0},
+            {"file": "motions/idle/idle3.mtn", "fade_in": 0, "fade_out": 0},
+            {"file": "motions/idle/idle4.mtn", "fade_in": 0, "fade_out": 0},
+            {"file": "motions/idle/idle5.mtn", "fade_in": 0, "fade_out": 0}
+        ],
+        "tap_bust": [
+            {"file": "motions/tap_bust/tapbust1.mtn", "fade_in": 1000, "fade_out": 0},
+            {"file": "motions/tap_bust/tapbust2.mtn", "fade_in": 1000, "fade_out": 0}
+        ],
+        "tap_hm": [
+            {"file": "motions/tap_hm/taphm.mtn", "fade_in": 1000, "fade_out": 0}
+        ]
+    },
+    "physics": "physics.json"
+}

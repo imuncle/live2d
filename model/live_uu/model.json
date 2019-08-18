@@ -1,0 +1,112 @@
+{
+    "posted": "Dreamer-Paul",
+    "model": "model.moc",
+    "textures": [
+        "textures/texture_00.png",
+        "textures/texture_01.png",
+        "textures/texture_02.png"
+    ],
+    "physics": "physics.json",
+    "pose": "pose.json",
+    "layout": {
+        "width": 3,
+        "center_x": 0,
+        "center_y": -0.2
+    },
+    "hit_areas_custom": {
+        "head_x": [-0.35, 0.6],
+        "head_y": [0.19, -0.2],
+        "body_x": [-0.3, -0.25],
+        "body_y": [0.3, -0.9]
+    },
+    "hit_areas": [
+        {
+            "name": "hair",
+            "id": "D_tap.01"
+        },
+        {
+            "name": "chest",
+            "id": "D_tap.02"
+        },
+        {
+            "name": "body",
+            "id": "D_tap.03"
+        },
+        {
+            "name": "leg",
+            "id": "D_tap.04"
+        },
+        {
+            "name": "all",
+            "id": "D_tap.00"
+        }
+    ],
+    "expressions": [
+        {"name": "f00.exp", "file": "expressions/F00.exp.json"},
+        {"name": "f01.exp", "file": "expressions/F01.exp.json"},
+        {"name": "f02.exp", "file": "expressions/F02.exp.json"},
+        {"name": "f03.exp", "file": "expressions/F03.exp.json"},
+        {"name": "f04.exp", "file": "expressions/F04.exp.json"},
+        {"name": "f05.exp", "file": "expressions/F05.exp.json"},
+        {"name": "f06.exp", "file": "expressions/F06.exp.json"},
+        {"name": "f07.exp", "file": "expressions/F07.exp.json"},
+        {"name": "f08.exp", "file": "expressions/F08.exp.json"},
+        {"name": "f09.exp", "file": "expressions/F09.exp.json"},
+        {"name": "f10.exp", "file": "expressions/F10.exp.json"},
+        {"name": "f11.exp", "file": "expressions/F11.exp.json"},
+        {"name": "f11.exp", "file": "expressions/F11.exp.json"},
+        {"name": "f11.exp", "file": "expressions/F11.exp.json"}
+    ],
+    "motions": {
+        "idle": [
+            {"file": "motions/soul00_ac01.mtn", "fade_in": 1000, "fade_out": 1000, "next": "idle"},
+            {"file": "motions/soul00_ac02.mtn", "fade_in": 1000, "fade_out": 1000, "next": "idle"},
+            {"file": "motions/soul00_ac03.mtn", "fade_in": 1000, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac01": [
+            {"file": "motions/soul00_ac01.mtn", "fade_in": 1000, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac02": [
+            {"file": "motions/soul00_ac02.mtn", "fade_in": 1000, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac03": [
+            {"file": "motions/soul00_ac03.mtn", "fade_in": 1000, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac04": [
+            {"file": "motions/soul00_ac04.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac06": [
+            {"file": "motions/soul00_ac06.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac07": [
+            {"file": "motions/soul00_ac07.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac08": [
+            {"file": "motions/soul00_ac08.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac09": [
+            {"file": "motions/soul00_ac09.mtn", "fade_in": 1000, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac10": [
+            {"file": "motions/soul00_ac10.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac11": [
+            {"file": "motions/soul00_ac11.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac12": [
+            {"file": "motions/soul00_ac12.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac13": [
+            {"file": "motions/soul00_ac13.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac14": [
+            {"file": "motions/soul00_ac14.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac15": [
+            {"file": "motions/soul00_ac15.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ],
+        "ac16": [
+            {"file": "motions/soul00_ac16.mtn", "fade_in": 600, "fade_out": 1000, "next": "idle"}
+        ]
+    }
+}

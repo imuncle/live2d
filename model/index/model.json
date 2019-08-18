@@ -1,0 +1,41 @@
+{
+    "posted": "Dreamer-Paul",
+    "model": "index.moc",
+    "textures": [
+        "textures/texture_00.png",
+        "textures/texture_01.png"
+    ],
+    "layout": {
+        "center_x": 0.0,
+        "center_y": -0.25,
+        "width": 2.6
+    },
+    "hit_areas_custom": {
+        "head_x": [-0.35, 0.6],
+        "head_y": [0.19, -0.2],
+        "body_x": [-0.3, -0.25],
+        "body_y": [0.3, -0.9]
+    },
+    "motions": {
+        "tap_body": [
+            {"file": "motions/tap/motion1.mtn"},
+            {"file": "motions/tap/motion2.mtn"},
+            {"file": "motions/tap/motion3.mtn"},
+            {"file": "motions/tap/motion4.mtn"},
+            {"file": "motions/tap/motion5.mtn"},
+            {"file": "motions/tap/motion6.mtn"},
+            {"file": "motions/tap/motion7.mtn"}
+        ]
+    },
+    "expressions": [
+        {"name": "f01.exp.json", "file": "expressions/f01.exp.json"},
+        {"name": "f02.exp.json", "file": "expressions/f02.exp.json"},
+        {"name": "f03.exp.json", "file": "expressions/f03.exp.json"},
+        {"name": "f04.exp.json", "file": "expressions/f04.exp.json"},
+        {"name": "f05.exp.json", "file": "expressions/f05.exp.json"},
+        {"name": "f06.exp.json", "file": "expressions/f06.exp.json"},
+        {"name": "f07.exp.json", "file": "expressions/f07.exp.json"},
+        {"name": "f08.exp.json", "file": "expressions/f08.exp.json"}
+    ],
+    "physics": "physics.json"
+}

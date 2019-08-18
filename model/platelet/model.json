@@ -1,0 +1,27 @@
+{
+    "posted": "Dreamer-Paul",
+    "name": "Platelet",
+    "model": "model.moc",
+    "textures": [
+        "textures/texture_00.png"
+    ],
+    "physics": "physics.json",
+    "motions": {
+        "tap_body": [
+            {"file": "motions/smile.mtn", "fade_in": 2000, "fade_out": 2000},
+            {"file": "motions/shy.mtn", "fade_in": 2000, "fade_out": 2000}
+        ]
+    },
+    "hit_areas_custom": {
+        "head_x": [-0.35, 0.6],
+        "head_y": [0.19, -0.2],
+        "body_x": [-0.3, -0.25],
+        "body_y": [0.3, -0.9]
+    },
+    "expressions": [
+        {"name": "F00.exp.json", "file": "expressions/F00.exp.json"},
+        {"name": "F01.exp.json", "file": "expressions/F01.exp.json"},
+        {"name": "F02.exp.json", "file": "expressions/F02.exp.json"},
+        {"name": "F03.exp.json", "file": "expressions/F03.exp.json"}
+    ]
+}

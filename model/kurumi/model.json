@@ -1,0 +1,83 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"textures/texture_00.png",
+		"textures/texture_01.png",
+		"textures/texture_02.png"
+	],
+	"hit_areas": [
+		{
+			"name": "head",
+			"id": "D_REF.FACE"
+		},
+		{
+			"name": "body",
+			"id": "D_REF.BODY"
+		},
+		{
+			"name": "tui",
+			"id": "D_REF.TUI"
+		}
+	],
+  "hit_areas_custom":{
+    "head_x":[-0.3, 1.12],
+    "head_y":[0.26, 0.56],
+    "body_x":[-0.41, 0.58],
+    "body_y":[0.46, -1.12]
+  },
+	"motions": {
+		"id4_5": [
+			{
+				"file": "motions/id4_5.mtn",
+				"fade_in": 0,
+				"fade_out": 0
+			}
+		],
+		"id4_4": [
+			{
+				"file": "motions/id4_4.mtn",
+				"fade_in": 0,
+				"fade_out": 0
+			}
+		],
+		"id4_2": [
+			{
+				"file": "motions/id4_2.mtn",
+				"fade_in": 0,
+				"fade_out": 0
+			}
+		],
+		"id4_1": [
+			{
+				"file": "motions/id4_1.mtn",
+				"fade_in": 0,
+				"fade_out": 0
+			}
+		],
+		"id4": [
+			{
+				"file": "motions/id4.mtn",
+				"fade_in": 0,
+				"fade_out": 0
+			}
+		],
+		"id4_3": [
+			{
+				"file": "motions/id4_3.mtn",
+				"fade_in": 0,
+				"fade_out": 0
+			}
+		],
+		"id4_6": [
+			{
+				"file": "motions/id4_6.mtn",
+				"fade_in": 0,
+				"fade_out": 0
+			}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"bust_10401.settings.json",
+	"name":"bust_10401"
+}

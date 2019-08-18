@@ -1,0 +1,30 @@
+{
+    "posted": "Dreamer-Paul",
+    "model": "model.moc",
+    "textures": [
+        "textures/texture_00.png",
+        "textures/texture_01.png",
+        "textures/texture_02.png"
+    ],
+    "physics": "physics.json",
+    "pose": "pose.json",
+    "layout": {
+        "width": 2.5,
+        "center_x": -0.1,
+        "center_y": 0.0
+    },
+    "hit_areas_custom":{
+        "head_x":[-0.35, 0.6],
+        "head_y":[0.19, -0.2],
+        "body_x":[-0.3, -0.25],
+        "body_y":[0.3, -0.9]
+    },
+    "motions": {
+        "idle": [
+            {"file": "motions/UU02 Copy.mtn", "fade_in": 2000, "fade_out": 2000}
+        ],
+        "in": [
+            {"file": "motions/UU02.mtn", "fade_in": 2000, "fade_out": 2000}
+        ]
+    }
+}
