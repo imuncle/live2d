@@ -1,0 +1,8 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "makoto0",
+	"model": "makoto0.moc",
+	"textures": [
+		"makoto0.2048/texture_00.png"
+	]
+}

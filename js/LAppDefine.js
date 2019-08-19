@@ -76,7 +76,7 @@ var LAppDefine = {
         ["model/Epsilon2.1/Epsilon2.1.model.json"], 
         ["model/Pio/model.json", "model/Pio/model1.json", "model/Pio/model2.json", "model/Pio/model3.json", "model/Pio/model4.json", "model/Pio/model5.json"], 
         ["model/platelet/model.json"], 
-        ["model/platelet-2/model.json"], 
+        ["model/platelet-2/model.json", "model/platelet-3/kesyoban.model.json"], 
         ["model/rem/model.json"], 
         ["model/sagiri/sagiri.model.json"], 
         ["model/snow_miku/model.json"], 
@@ -93,7 +93,12 @@ var LAppDefine = {
         ["model/HyperdimensionNeptunia/nepgear/index.json", "model/HyperdimensionNeptunia/nepgearswim/index.json", "model/HyperdimensionNeptunia/nepgear_extra/index.json"], 
         ["model/HyperdimensionNeptunia/nepmaid/index.json", "model/HyperdimensionNeptunia/nepnep/index.json", "model/HyperdimensionNeptunia/nepswim/index.json", "model/HyperdimensionNeptunia/neptune_classic/index.json", "model/HyperdimensionNeptunia/neptune_santa/index.json"], ["model/HyperdimensionNeptunia/noir_classic/index.json", "model/HyperdimensionNeptunia/noir/index.json", "model/HyperdimensionNeptunia/noir_santa/index.json", "model/HyperdimensionNeptunia/noireswim/index.json"], 
         ["model/HyperdimensionNeptunia/vert_classic/index.json", "model/HyperdimensionNeptunia/vert_normal/index.json", "model/HyperdimensionNeptunia/vert_swimwear/index.json"],
-        ["model/mashiro/ryoufuku.model.json", "model/mashiro/seifuku.model.json", "model/mashiro/shifuku.model.json"]
+        ["model/mashiro/ryoufuku.model.json", "model/mashiro/seifuku.model.json", "model/mashiro/shifuku.model.json"],
+        ["model/makoto0/makoto0.model.json"],
+        ["model/penchan/penchan.model.json"],
+        ["model/iio/iio.model.json"],
+        ["model/yukari_model/yukari_model.model.json"],
+        ["model/YuzukiYukari/YuzukiYukari.model.json"]
     ],
 
     // 与外部定义的json文件匹配

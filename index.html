@@ -56,6 +56,8 @@
                 texure_id = LAppDefine.MODELS[model_id].length - 1;
             }
             this.live2DMgr.reloadFlg = true;
+            this.live2DMgr.count = model_id;
+            texureCount = texure_id;
             if(this.live2DMgr.reloadFlg) {
                 this.live2DMgr.reloadFlg = false;
                 this.live2DMgr.releaseModel(0, gl);

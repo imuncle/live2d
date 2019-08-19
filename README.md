@@ -31,7 +31,7 @@ https://imuncle.github.io/live2d
 
 * `LAppDefine.js`为live2d的配置文件，具体的配置信息见注释。
 
-* `model`文件夹下是live2d的模型文件，目前已收录**41**种，其中数种模型有可更换皮肤。
+* `model`文件夹下是live2d的模型文件，目前已收录**48**种，其中数种模型有可更换皮肤。
 模型文件夹的目录大体如下：
 ```txt
 +-models（模型文件夹名称）
