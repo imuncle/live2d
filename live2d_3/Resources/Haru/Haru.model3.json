@@ -1,0 +1,55 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Haru.moc3",
+		"Textures": [
+		  "Haru.2048/texture_00.png",
+		  "Haru.2048/texture_01.png"
+		],
+		"Pose": "Haru.pose3.json",
+		"Expressions": [
+			{"Name":"f00","File":"expressions/F01.exp3.json"},
+			{"Name":"f01","File":"expressions/F02.exp3.json"},
+			{"Name":"f02","File":"expressions/F03.exp3.json"},
+			{"Name":"f03","File":"expressions/F04.exp3.json"},
+			{"Name":"f04","File":"expressions/F05.exp3.json"},
+			{"Name":"f05","File":"expressions/F06.exp3.json"},
+			{"Name":"f06","File":"expressions/F07.exp3.json"},
+			{"Name":"f07","File":"expressions/F08.exp3.json"}
+		],
+		"Motions": {
+			"Idle": [
+			  {"File":"motions/haru_g_idle.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5},
+			  {"File":"motions/haru_g_m15.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
+			],
+			"TapBody": [
+			  {"File":"motions/haru_g_m06.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5},
+			  {"File":"motions/haru_g_m09.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5},
+			  {"File":"motions/haru_g_m20.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5},
+			  {"File":"motions/haru_g_m26.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
+			]
+		},
+		"UserData": "Haru.userdata3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": [
+		{"Name":"Head", "Id":"HitArea"},
+		{"Name":"Body", "Id":"HitArea2"}
+	]
+}
