@@ -37,7 +37,6 @@
             } else {
                 var content = "<li>"+LAppDefine.MODELS[model][0]+"</li><ol>";
                 for(texure in LAppDefine.MODELS[model]) {
-                    if(texure == 0) continue;
                     content += "<li>"+LAppDefine.MODELS[model][texure]+"</li>";
                     if(texure == LAppDefine.MODELS[model].length - 1) {
                         content += "</ol>";

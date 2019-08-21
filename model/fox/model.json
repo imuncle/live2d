@@ -1,0 +1,60 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"BCY.moc",
+	"textures":[
+		"Texture2D/texture_00.png"
+	],
+	"motions":{
+		"shake":[
+			{"file":"motions/confused.mtn"}
+		],
+		"flick_head":[
+			{"file":"motions/happy.mtn"}
+		],
+		"tap_face":[
+			{"file":"motions/happy.mtn"}
+		],
+		"tap_breast":[
+			{"file":"motions/happy.mtn"}
+		],
+		"tap_belly":[
+			{"file":"motions/happy.mtn"}
+		],
+		"tap_leg":[
+			{"file":"motions/happy.mtn"}
+		],
+		"mail":[
+			{"file":"motions/soft.mtn"}
+		],
+		"morning":[
+			{"file":"motions/smart.mtn"},
+			{"file":"motions/soft.mtn"}
+		],
+		"activity":[
+			{"file":"motions/soft.mtn"}
+
+		],
+		"born":[
+			{"file":"motions/soft.mtn"}
+		],
+		"friend":[
+			{"file":"motions/soft.mtn"}
+		],
+		"afternoon":[
+			{"file":"motions/soft.mtn"}
+		],
+		"evening":[
+			{"file":"motions/soft.mtn"}
+		]
+	},
+	"name":"",
+	"layout":
+	{
+		"image_height": 750,
+		"image_center_y": -0.25,
+		"anchor_center_y": 0,
+		"head_center_y": 0.5,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	}
+}

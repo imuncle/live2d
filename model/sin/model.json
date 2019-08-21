@@ -1,0 +1,59 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"shin.moc",
+	"textures":[
+		"Texture2D/texture_00.png"
+	],
+	"motions":{
+		"shake":[
+			{"file":"motions/11.mtn"}
+		],
+		"flick_head":[
+			{"file":"motions/7.mtn"}
+		],
+		"tap_face":[
+			{"file":"motions/6.mtn"}
+		],
+		"tap_breast":[
+			{"file":"motions/2.mtn"}
+		],
+		"tap_belly":[
+			{"file":"motions/9.mtn"}
+		],
+		"tap_leg":[
+			{"file":"motions/4.mtn"}
+		],
+		"morning":[
+			{"file":"motions/5.mtn"}
+		],
+		"activity":[
+			{"file":"motions/10.mtn"}
+		],
+		"mail":[
+			{"file":"motions/idle.mtn"}
+		],
+		"friend":[
+			{"file":"motions/idle.mtn"}
+		],
+		"born":[
+			{"file":"motions/2.mtn"}
+		],
+		"afternoon":[
+			{"file":"motions/10.mtn"}
+		],
+		"evening":[
+			{"file":"motions/10.mtn"}
+		]
+
+	},
+	"name":"",
+	"layout":
+	{
+		"image_height": 850,
+		"image_center_y": -0.15,
+		"anchor_center_y": 0,
+		"head_center_y": 0.5,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	}
+}

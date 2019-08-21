@@ -1,0 +1,57 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"Texture2D/texture_00.png"
+	],
+	"motions":{
+		"shake":[
+			{"file":"motions/7.mtn"}
+		],
+		"flick_head":[
+			{"file":"motions/1.mtn"}
+		],
+		"tap_face":[
+			{"file":"motions/1.mtn"}
+		],
+		"tap_breast":[
+			{"file":"motions/3.mtn"}
+		],
+		"tap_belly":[
+			{"file":"motions/2.mtn"}
+		],
+		"tap_leg":[
+			{"file":"motions/4.mtn"}
+		],
+		"mail":[
+			{"file":"motions/idle.mtn"}
+		],
+		"morning":[
+			{"file":"motions/idle.mtn"}
+		],
+		"activity":[
+			{"file":"motions/idle.mtn"}
+		],
+		"born":[
+			{"file":"motions/6.mtn"}
+		],
+		"friend":[
+			{"file":"motions/idle.mtn"}
+		],
+		"afternoon":[
+			{"file":"motions/idle.mtn"}
+		],
+		"evening":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"name":"",
+	"layout":
+	{
+		"image_height": 1200,
+		"image_center_y": 0.6,
+		"head_center_y": 0.25,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	}
+}

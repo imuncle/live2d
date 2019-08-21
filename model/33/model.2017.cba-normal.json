@@ -1,0 +1,46 @@
+{
+  "type": "Live2D Model Setting",
+  "name": "33-2017-cba-normal",
+  "label": "33",
+  "model": "33.v2.moc",
+  "textures": [
+    "33.1024/closet.default.v2/texture_00.png",
+    "33.1024/closet.2017.cba-normal/texture_01.png",
+    "33.1024/closet.2017.cba-normal/texture_02.png",
+    "33.1024/closet.2017.cba-normal/texture_03.png"
+  ],
+  "layout": { "center_x": 0, "center_y": 0.1, "width": 2.3, "height": 2.3 },
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/33.v2.idle-01.mtn",
+        "fade_in": 2000,
+        "fade_out": 2000
+      },
+      {
+        "file": "motions/33.v2.idle-02.mtn",
+        "fade_in": 2000,
+        "fade_out": 2000
+      },
+      {
+        "file": "motions/33.v2.idle-03.mtn",
+        "fade_in": 100,
+        "fade_out": 100
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "motions/33.v2.touch.mtn",
+        "fade_in": 500,
+        "fade_out": 200
+      }
+    ],
+    "thanking": [
+      {
+        "file": "motions/33.v2.thanking.mtn",
+        "fade_in": 2000,
+        "fade_out": 2000
+      }
+    ]
+  }
+}

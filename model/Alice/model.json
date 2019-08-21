@@ -1,0 +1,36 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"Texture2D/texture_00.png"
+	],
+	"motions":{
+		"shake":[
+			{"file":"motions/8.mtn"}
+		],
+		"flick_head":[
+			{"file":"motions/1.mtn"}
+		],
+		"tap_face":[
+			{"file":"motions/2.mtn"}
+		],
+		"tap_breast":[
+			{"file":"motions/3.mtn"}
+		],
+		"tap_belly":[
+			{"file":"motions/5.mtn"}
+		],
+		"tap_leg":[
+			{"file":"motions/4.mtn"}
+		]
+	},
+	"name":"",
+	"layout":
+	{
+		"image_height": 1170,
+		"image_center_y": 0.57,
+		"head_center_y": 0.25,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	}
+}
