@@ -9,8 +9,7 @@ live2d模型收集+展示，可直接用于静态网站
 ## Live2d Cubism 2
 * 引用必要的`js`文件：
 ```html
-<script src="js/LAppDefine.js"></script>
-<script src="js/live2d.min.js"></script>
+<script src="js/live2d.js"></script>
 ```
 * 添加`canvas`元素：
 ```html
@@ -27,8 +26,8 @@ live2d模型收集+展示，可直接用于静态网站
 </style>
 ```
 * 初始化live2d：
-```html
-<script>InitLive2D();</script>
+```js
+loadlive2d("live2d", "./model.json");
 ```
 
 * `LAppDefine.js`为live2d的配置文件，具体的配置信息见注释。

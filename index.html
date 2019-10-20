@@ -5,9 +5,6 @@
         <meta charset="utf-8">
         <link rel="icon" href="avatar.png">
         <style>
-            body {
-                min-height:100vh
-            }
             .live2d {
                 position: fixed;
                 bottom : 0;
@@ -15,21 +12,22 @@
             }
         </style>
     </head>
-    <body onload="InitLive2D()">
-        <audio id="my_audio"></audio>
-        <button id="Change" class="active">换人</button>
-        <button id="texure" class="active">换衣服</button>
-        <text>当前：模型编号 </text><text id="model_id"></text><text>；衣服编号 </text><text id="texure_id"></text>
-        <input type="number" id="model" placeholder="模型编号">
-        <input type="number" id="Texure" placeholder="衣服编号">
-        <button onclick="JumpToModel()">跳转</button>
-        <a href="live2d_3">Live2d Cubism 3</a>
-        <a target="_blank" href="https://github.com/imuncle/live2d">Github</a>
-        <ol id="model_info"></ol>
+    <body>
+        <div style="position:fixed;top:0;background-color: white;">
+            <button id="Change" class="active">换人</button>
+            <button id="texure" class="active">换衣服</button>
+            <text>当前：模型编号 </text><text id="model_id"></text><text>；衣服编号 </text><text id="texure_id"></text>
+            <input type="number" id="model" placeholder="模型编号">
+            <input type="number" id="Texure" placeholder="衣服编号">
+            <button onclick="JumpToModel()">跳转</button>
+            <a href="live2d_3">Live2d Cubism 3</a>
+            <a target="_blank" href="https://github.com/imuncle/live2d">Github</a>
+        </div>
+        <ol id="model_info" style="margin-top:30px ;"></ol>
         <canvas class="live2d" id="live2d" width="300" height="800"></canvas>
     </body>
     <script src="js/LAppDefine.js"></script>
-    <script src="js/live2d.min.js"></script>
+    <script src="js/live2d.js"></script>
     <script>
         for(model in LAppDefine.MODELS) {
             if(LAppDefine.MODELS[model].length == 1) {
@@ -45,31 +43,28 @@
                 document.getElementById("model_info").innerHTML += content;
             }
         }
+
+        var current_model_id = 1;
+        var current_texure_id = 1;
+        document.getElementById("model_id").innerHTML = current_model_id;
+        document.getElementById("texure_id").innerHTML = current_texure_id;
         function JumpToModel() {
             if(document.getElementById("model").value == "") document.getElementById("model").value = "1";
             if(document.getElementById("Texure").value == "") document.getElementById("Texure").value = "1";
-            var model_id = parseInt(document.getElementById("model").value) - 1;
-            var texure_id = parseInt(document.getElementById("Texure").value) - 1;
+            current_model_id = parseInt(document.getElementById("model").value);
+            current_texure_id = parseInt(document.getElementById("Texure").value);
+            var model_id = current_model_id - 1;
+            var texure_id = current_texure_id - 1;
             if(model_id > LAppDefine.MODELS.length - 1) {
                 model_id = LAppDefine.MODELS.length - 1;
                 texure_id = 0;
             } else if(texure_id > LAppDefine.MODELS[model_id].length - 1) {
                 texure_id = LAppDefine.MODELS[model_id].length - 1;
             }
-            this.live2DMgr.reloadFlg = true;
-            this.live2DMgr.count = model_id;
-            texureCount = texure_id;
-            if(this.live2DMgr.reloadFlg) {
-                this.live2DMgr.reloadFlg = false;
-                this.live2DMgr.releaseModel(0, gl);
-                this.live2DMgr.createModel();
-                this.live2DMgr.models[0].load(gl, LAppDefine.MODELS[model_id][texure_id]);
-            }
+            loadlive2d(LAppDefine.CANVAS_ID, LAppDefine.MODELS[model_id][texure_id]);
+            document.getElementById("model_id").innerHTML = current_model_id;
+            document.getElementById("texure_id").innerHTML = current_texure_id;
         }
-        setInterval(function() {
-            var model_id = this.live2DMgr.count % LAppDefine.MODELS.length;
-            document.getElementById("model_id").innerHTML = model_id + 1;;
-            document.getElementById("texure_id").innerHTML = texureCount % LAppDefine.MODELS[model_id].length + 1;
-        }, 200);
+        loadlive2d("live2d", "model/22/model.default.json");
     </script>
 </html>
