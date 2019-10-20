@@ -147,20 +147,3 @@ function mouseEvent(e) {
         isDragging = false;
     }
 }
-btnChangeExure = document.getElementById(LAppDefine.TEXURE_BUTTON_ID);
-btnChangeExure.addEventListener('click', function(e) {
-    current_texure_id++;
-    if(current_texure_id > LAppDefine.MODELS[current_model_id-1].length) current_texure_id = 1;
-    document.getElementById("model_id").innerHTML = current_model_id;
-    document.getElementById("texure_id").innerHTML = current_texure_id;
-    loadlive2d(LAppDefine.CANVAS_ID, LAppDefine.MODELS[current_model_id-1][current_texure_id-1]);
-})
-btnChangeModel = document.getElementById(LAppDefine.BUTTON_ID);
-btnChangeModel.addEventListener("click", function(e) {
-    current_model_id++;
-    current_texure_id = 1;
-    if(current_model_id > LAppDefine.MODELS.length) current_model_id = 1;
-    loadlive2d(LAppDefine.CANVAS_ID, LAppDefine.MODELS[current_model_id-1][current_texure_id-1]);
-    document.getElementById("model_id").innerHTML = current_model_id;
-    document.getElementById("texure_id").innerHTML = current_texure_id;
-})
