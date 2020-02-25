@@ -5,6 +5,13 @@ live2d模型收集+展示，可直接用于静态网站
 * [Live2d Cubism 2](https://imuncle.github.io/live2d)
 * [Live2d Cubism 3](https://imuncle.github.io/live2d/live2d_3)
 
+以上页面国内访问较慢，而模型较大，可以访问以下地址：
+
+* [Live2d Cubism 2](http://119.23.8.25/live2d)
+* [Live2d Cubism 3](http://119.23.8.25/live2d/live2d_3)
+
+目前共计收录**128**个模型。
+
 # 使用说明
 ## Live2d Cubism 2
 * 引用必要的`js`文件：
@@ -47,15 +54,15 @@ loadlive2d("live2d", "./model.json");
 |__model.moc（模型本体）
 ```
 部分模型有所不同。
+
 ## Live2d Cubism 3
-以上内容都是基于旧的Cubism Editor 2制作与开发，现在官网老早就使用Cubism 3了（详见[Cubism 3 | Live2D](https://www.live2d.com/en/products/cubism3)）
+以上内容都是基于旧的Cubism Editor 2制作与开发，现在官网老早就使用~~Cubism 3了（详见[Cubism 3 | Live2D](https://www.live2d.com/en/products/cubism3)）~~ 已经到了Cubism 4了，不过与Cubism 3是兼容的，而且官方承诺以后的版本都向下兼容（除了Cubism 2）。
 
-Cubism 3使用的是`TypeScript`，相比第二版更加稳健。
+Cubism 3使用的是`TypeScript`，相比第二版更加稳健，但我基于[AzurLaneL2DViewer](https://github.com/Yukariin/AzurLaneL2DViewer)这个仓库进行了一些小修改，可像Cubism 2一样直接添加模型，不需要修改核心代码。
 
-官方在[官网](https://live2d.github.io)上也提供了Demo下载。
+live2d Cubism 3全部文件放在`live2d_3`中，可单独使用。
 
-* Demo的使用参照内附的README.md，需要使用Node.js + TypeScript + Visual Studio Code 组合。
-* 本repo的live2d Cubism 3全部文件放在`live2d_3`中，可单独使用，未包含TypeSCript编译环境。
+`live2d_3/model`文件夹下是Cubism 3版本的模型，目前收录了碧蓝航线里的**40**个模型。
 
 # 相关链接
 * Live2D官方网站： https://www.live2d.com/en/ ； https://live2d.github.io
