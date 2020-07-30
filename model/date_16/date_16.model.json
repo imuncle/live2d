@@ -1,0 +1,112 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "date_16.moc",
+  "physics": "physics_date.json", 
+  "lip_sync":"true",
+  "textures": [
+    "date_16.1024/texture_00.png",
+    "date_16.1024/texture_01.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": 0.0,
+    "width": 2.0
+  },
+  "hit_areas": [
+    {
+      "name": "body",
+      "id": ""
+    }
+  ],
+  "motions": {
+    "tap": [
+      {
+        "file": "motions/tap/voice_3368.mtn",
+        "sound": "motions/tap/voice_3368.mp3"
+      },
+      {
+        "file": "motions/tap/voice_3369.mtn",
+        "sound": "motions/tap/voice_3369.mp3"
+      },
+      {
+        "file": "motions/tap/voice_3370.mtn",
+        "sound": "motions/tap/voice_3370.mp3"
+      },
+      {
+        "file": "motions/tap/voice_3371.mtn",
+        "sound": "motions/tap/voice_3371.mp3"
+      },
+      {
+        "file": "motions/tap/voice_3372.mtn",
+        "sound": "motions/tap/voice_3372.mp3"
+      },
+      {
+        "file": "motions/tap/voice_3373.mtn",
+        "sound": "motions/tap/voice_3373.mp3"
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "motions/tap_body/m01.mtn"
+      },
+      {
+        "file": "motions/tap_body/m02.mtn"
+      },
+      {
+        "file": "motions/tap_body/m03.mtn"
+      },
+      {
+        "file": "motions/tap_body/m04.mtn"
+      },
+      {
+        "file": "motions/tap_body/m05.mtn"
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "name": "F00.exp.json",
+      "file": "expressions/F00.exp.json"
+    },
+    {
+      "name": "F01.exp.json",
+      "file": "expressions/F01.exp.json"
+    },
+    {
+      "name": "F02.exp.json",
+      "file": "expressions/F02.exp.json"
+    },
+    {
+      "name": "F03.exp.json",
+      "file": "expressions/F03.exp.json"
+    },
+    {
+      "name": "F04.exp.json",
+      "file": "expressions/F04.exp.json"
+    },
+    {
+      "name": "F05.exp.json",
+      "file": "expressions/F05.exp.json"
+    },
+    {
+      "name": "F06.exp.json",
+      "file": "expressions/F06.exp.json"
+    },
+    {
+      "name": "F07.exp.json",
+      "file": "expressions/F07.exp.json"
+    },
+    {
+      "name": "F08.exp.json",
+      "file": "expressions/F08.exp.json"
+    },
+    {
+      "name": "F09.exp.json",
+      "file": "expressions/F09.exp.json"
+    },
+    {
+      "name": "F10.exp.json",
+      "file": "expressions/F10.exp.json"
+    }
+  ]
+}

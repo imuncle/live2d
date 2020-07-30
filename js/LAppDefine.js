@@ -102,7 +102,21 @@ var LAppDefine = {
         ["model/dollsfrontline/type64-ar_2901/normal/model.json", "model/dollsfrontline/type64-ar_2901/destroy/model.json"],
         ["model/dollsfrontline/vector_1901/normal/model.json", "model/dollsfrontline/vector_1901/destroy/model.json"],
         ["model/dollsfrontline/wa2000_6/normal/model.json", "model/dollsfrontline/wa2000_6/destroy/model.json"],
-        ["model/dollsfrontline/welrod_1401/normal/model.json", "model/dollsfrontline/welrod_1401/destroy/model.json"]
+        ["model/dollsfrontline/welrod_1401/normal/model.json", "model/dollsfrontline/welrod_1401/destroy/model.json"],
+        ["model/chiaki_kitty/chiaki_kitty.model.json"],
+        ["model/date_16/date_16.model.json", "model/hallo_16/hallo_16.model.json"],
+        ["model/kanzaki/kanzaki.model.json"],
+        ["model/Kobayaxi/Kobayaxi.model.json"],
+        ["model/kuroko/kuroko.model.json"],
+        ["model/len/len.model.json", "model/len_impact/len_impact.model.json", "model/len_space/len_space.model.json", "model/len_swim/len_swim.model.json"],
+        ["model/ryoufuku/ryoufuku.model.json"],
+        ["model/saten/saten.model.json"],
+        ["model/seifuku/seifuku.model.json"],
+        ["model/shifuku/shifuku.model.json", "model/shifuku2/shifuku2.model.json"],
+        ["model/stl/stl.model.json"],
+        ["model/touma/touma.model.json"],
+        ["model/uiharu/uiharu.model.json"],
+        ["model/wed_16/wed_16.model.json"]
     ]
 };
 

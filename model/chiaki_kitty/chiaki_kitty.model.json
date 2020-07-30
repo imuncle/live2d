@@ -1,0 +1,54 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "chiaki_kitty.moc",
+  "textures": [
+    "chiaki_kitty.2048/texture_00.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": 0.0,
+    "width": 2.0
+  },
+  "motions": {
+    "tap": [
+      {
+        "file": "motions/tap/chiaki_kitty_hello_01.mtn",
+        "sound": "motions/tap/chiaki_kitty_hello_01.mp3"
+      },
+      {
+        "file": "motions/tap/chiaki_kitty_joyful_01.mtn",
+        "sound": "motions/tap/chiaki_kitty_joyful_01.mp3"
+      },
+      {
+        "file": "motions/tap/chiaki_kitty_surprise_01.mtn",
+        "sound": "motions/tap/chiaki_kitty_surprise_01.mp3"
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/idle/idling_1.mtn"
+      },
+      {
+        "file": "motions/idle/idling_2.mtn"
+      },
+      {
+        "file": "motions/idle/idling_3.mtn"
+      },
+      {
+        "file": "motions/idle/idling_4.mtn"
+      },
+      {
+        "file": "motions/idle/idling_l1.mtn"
+      },
+      {
+        "file": "motions/idle/idling_l2.mtn"
+      },
+      {
+        "file": "motions/idle/idling_r1.mtn"
+      },
+      {
+        "file": "motions/idle/idling_r2.mtn"
+      }
+    ]
+  }
+}

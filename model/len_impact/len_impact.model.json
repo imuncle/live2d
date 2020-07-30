@@ -1,0 +1,116 @@
+{
+    "version": "Sample 1.0.0",
+    "model": "len_impact.moc",
+	"background": "image/bg_len_impact.jpg",
+    "textures": [
+        "model_impact.2048/texture_00.png"
+    ],
+    "layout": {
+        "center_x": 0,
+        "center_y": -0.5,
+        "width": 2.7
+    },
+    "hit_areas": [
+        {
+            "name": "head",
+            "id": "D_REF.HEAD"
+        },
+        {
+            "name": "chest",
+            "id": "D_REF.CHEST"
+        },
+        {
+            "name": "belly",
+            "id": "D_REF.BELLY"
+        },
+        {
+            "name": "skirt",
+            "id": "D_REF.SKIRT"
+        },
+        {
+            "name": "hand_r",
+            "id": "D_REF.HAND_R"
+        },
+        {
+            "name": "hand_l",
+            "id": "D_REF.HAND_L"
+        },
+        {
+            "name": "face",
+            "id": "D_REF.FACE"
+        }
+    ],
+    "motions": {
+        "start_first": [
+            {
+                "file": "motions/len_impact_start_first_01.mtn",
+                "sound": "sounds/len_impact_start_first_01.mp3"
+            },
+            {
+                "file": "motions/len_impact_start_first_02.mtn",
+                "sound": "sounds/len_impact_start_first_02.mp3"
+            }
+        ],
+        "tap_belly": [
+            {
+                "file": "motions/len_impact_tap_belly_01.mtn",
+                "sound": "sounds/len_impact_tap_belly_01.mp3"
+            },
+            {
+                "file": "motions/len_impact_tap_belly_02.mtn",
+                "sound": "sounds/len_impact_tap_belly_02.mp3"
+            }
+        ],
+        "tap_chest": [
+            {
+                "file": "motions/len_impact_tap_chest_01.mtn",
+                "sound": "sounds/len_impact_tap_chest_01.mp3"
+            },
+            {
+                "file": "motions/len_impact_tap_chest_02.mtn",
+                "sound": "sounds/len_impact_tap_chest_02.mp3"
+            }
+        ],
+        "tap_face": [
+            {
+                "file": "motions/len_impact_tap_face_01.mtn",
+                "sound": "sounds/len_impact_tap_face_01.mp3"
+            },
+            {
+                "file": "motions/len_impact_tap_face_02.mtn",
+                "sound": "sounds/len_impact_tap_face_02.mp3"
+            }
+        ],
+        "tap_head": [
+            {
+                "file": "motions/len_impact_tap_head_01.mtn",
+                "sound": "sounds/len_impact_tap_head_01.mp3"
+            },
+            {
+                "file": "motions/len_impact_tap_head_02.mtn",
+                "sound": "sounds/len_impact_tap_head_02.mp3"
+            }
+        ],
+        "tap_skirt": [
+            {
+                "file": "motions/len_impact_tap_leg_01.mtn",
+                "sound": "sounds/len_impact_tap_leg_01.mp3"
+            },
+            {
+                "file": "motions/len_impact_tap_leg_02.mtn",
+                "sound": "sounds/len_impact_tap_leg_02.mp3"
+            }
+        ],
+        "idle": [
+            {
+                "file": "motions/len_impact_idle_01.mtn"
+            },
+            {
+                "file": "motions/len_impact_idle_02.mtn"
+            }
+        ]
+    },
+    "physics": "physics_impact.json",
+    "pose": "pose_impact.json",
+    "name": "len_impact"
+}

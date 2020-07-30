@@ -1,0 +1,36 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "stl.moc",
+  "textures": [
+    "stl.1024/texture_00.png",
+    "stl.1024/texture_01.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": -0.25,
+    "width": 2.6
+  },
+  "motions": {
+    "tap": [
+      {
+        "file": "motions/tap/motion1.mtn"
+      },
+      {
+        "file": "motions/tap/motion2.mtn"
+      },
+      {
+        "file": "motions/tap/motion3.mtn"
+      },
+      {
+        "file": "motions/tap/motion4.mtn"
+      },
+      {
+        "file": "motions/tap/motion5.mtn"
+      },
+      {
+        "file": "motions/tap/motion6.mtn"
+      }
+    ]
+  },
+  "expressions": []
+}
